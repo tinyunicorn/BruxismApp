@@ -1,0 +1,88 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+
+
+
+    <TextView
+        android:id="@+id/bevent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bruxismtitle"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:background="#00C3FF"
+        android:padding="16dp"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.5"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:src="@drawable/googleplaystorebb"
+        android:background="#75DEFF"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="32dp"
+        android:paddingLeft="32dp"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:background="#75DEFF"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/detectionoff"
+            android:id="@+id/onoff"
+            android:textSize="20dp"
+            android:layout_weight="0.6"
+            android:textColor="#000000"
+            android:textAlignment="center"/>
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1"
+            android:id="@+id/toggleButton"
+            android:background="#00C3FF"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/see_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/viewData"
+        android:onClick="startList"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#75DEFF"
+        android:padding="16dp"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Bruxism App</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_item_viewer">Go back to the data list</string>
+    <string name="list_settings">Go back to the main screen</string>
+
+    <string name="bruxismtitle">Welcome to the Bruxism Detection App</string>
+    <string name="detectionoff">Bruxism Detection is switched OFF</string>
+    <string name="detectionon">Bruxism Detection is switched ON</string>
+    <string name="viewData">View Detection Data</string>
+
+    <string name="listViewer">Tap an item to see more information</string>
+</resources>
